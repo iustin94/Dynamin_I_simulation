@@ -16,7 +16,7 @@ km1 0.01 # Reverse binding rate constant for L-R
 end parameters
 
 begin molecule types
-Dynamin(p)
+Dynamin(GTPase, Middle, PH, GED, PRD)
 Phosphate()
 end molecule types
 
